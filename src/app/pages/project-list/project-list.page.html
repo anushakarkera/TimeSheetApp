@@ -1,0 +1,16 @@
+<ion-content>
+<div class="project-list" >
+    <div>
+    <div class="project" *ngFor="let task of allTask">
+        <div class="project-name">
+            <div (click)="onProjectClicked(task.id)">
+              {{task.project}}
+            </div>
+        </div>
+    </div>
+    <div class="add">
+      <button class="button-add" >OK</button>
+    </div>
+    </div>
+</div>
+</ion-content>

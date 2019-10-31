@@ -1,0 +1,51 @@
+.login-form{
+    background-color: #4091EA;
+    height: 100%;
+    padding: 3rem 3rem 4rem;
+    .heading-text{
+        color: white;
+        margin-bottom: 8%;
+        .my-timesheets{
+            font-size: 2rem;
+            margin-bottom: 8%;
+            /* background-color: rebeccapurple; */
+            text-align: center;
+        }
+        .sign-in-to-system{
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+    .username{
+        margin-bottom: 8%;
+    }
+    .password{
+        margin-bottom: 8%;
+    }
+    .save-credentials{
+        color: white;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 8%;
+    }
+    .sign-in{
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        padding: 4%;
+    }
+}
+
+input{
+    width: 100%;
+    background-color: #3882d3;
+    border: none;
+    font-size: 1.3rem;
+    padding: 4%;
+    outline: none;
+}
+
+::placeholder{
+    color: #c1dcf8;
+}
